@@ -54,7 +54,9 @@ nextTwo.addEventListener('click', () => {
 });
 
 // Write anonymous event handler property and function for the third progress button
+nextThree.addEventListener('click', () => {
 
+});
 
 // This is the event handler property and function for the startOver button
 startOver.onclick = function() {
