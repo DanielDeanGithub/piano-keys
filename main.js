@@ -41,7 +41,9 @@ nextOne.addEventListener('click', () => {
 });
 
 // Write anonymous event handler property and function for the second progress button
-
+nextOne.addEventListener('click', () => {
+    
+});
 
 // Write anonymous event handler property and function for the third progress button
 
