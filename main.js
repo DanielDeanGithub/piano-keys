@@ -11,7 +11,9 @@ const keyPlay = event => event.target.style.backgroundColor = '#ffc63f';
 // Write a named function with event handler properties
 const keyReturn = event => event.target.style.backgroundColor = '';
 
+const assignEvents = note => {
 
+};
 // Write a loop that runs the array elements through the function
 
 
