@@ -57,13 +57,19 @@ nextTwo.addEventListener('click', () => {
 nextThree.addEventListener('click', () => {
     startOver.hidden = false;
     nextThree.hidden = true;
+    document.getElementById('word-one').innerHTML = 'HAP-';
+    document.getElementById('word-two').innerHTML = 'PY';
+    document.getElementById('word-three').innerHTML = 'BIRTH-';
+    document.getElementById('word-four').innerHTML = 'DAY';
+    document.getElementById('word-five').innerHTML = 'TO';
+    document.getElementById('word-six').innerHTML = 'YOU!';
 });
 
 // This is the event handler property and function for the startOver button
 startOver.onclick = function() {
   nextOne.hidden = false;
   startOver.hidden = true;
-   document.getElementById('word-one').innerHTML = 'HAP-';
+  document.getElementById('word-one').innerHTML = 'HAP-';
   document.getElementById('letter-note-one').innerHTML = 'G';
   document.getElementById('word-two').innerHTML = 'PY';
   document.getElementById('letter-note-two').innerHTML = 'G';
