@@ -12,7 +12,7 @@ const keyPlay = event => event.target.style.backgroundColor = '#ffc63f';
 const keyReturn = event => event.target.style.backgroundColor = '';
 
 const assignEvents = note => {
-
+    note.addEventListener('mousedown', keyPlay);
 };
 // Write a loop that runs the array elements through the function
 
