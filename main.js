@@ -30,7 +30,7 @@ let lastLyric = document.getElementById('column-optional');
 // These statements are "hiding" all the progress buttons, but the first one
 nextTwo.hidden = true;
 nextThree.hidden = true;
-startOver.hidden= true;
+startOver.hidden = true;
 
 // Write anonymous event handler property and function for the first progress button
 nextOne.addEventListener('click', () => {
@@ -55,7 +55,8 @@ nextTwo.addEventListener('click', () => {
 
 // Write anonymous event handler property and function for the third progress button
 nextThree.addEventListener('click', () => {
-
+    startOver.hidden = false;
+    nextThree.hidden = true;
 });
 
 // This is the event handler property and function for the startOver button
